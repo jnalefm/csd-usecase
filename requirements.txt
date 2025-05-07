@@ -1,0 +1,7 @@
+streamlit
+langchain
+google-generativeai
+PyMuPDF
+faiss-cpu
+tiktoken
+langchain_experimental

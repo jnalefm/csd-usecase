@@ -1,0 +1,12 @@
+# all llm api keys
+OPENAI_API_KEY = "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"
+
+# GOOGLE_API_KEY = "AIzaSyA5TjmkG_BuNs_tf6abEN48IBLIY1VyaPc"
+
+# GOOGLE_API_KEY = "AIzaSyCcP04LwDVNHvMJMLAKRLwaYf_gmAX9Zdw"
+
+ANTHROPIC_API_KEY = "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"
+
+HF_TOKEN = "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"
+
+GOOGLE_API_KEY ="AIzaSyBoAFINorYdXTMv2QUeN0tcssC8KL_JXq0"#paid
