@@ -6,9 +6,12 @@ from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_community.vectorstores import FAISS
 from langchain_experimental.text_splitter import SemanticChunker
 from utils.prompt import get_prompt
-import keys
+# import keys
+from google.generativeai import configure as google_configure
+import streamlit as st
 
-os.environ["GOOGLE_API_KEY"] = keys.GOOGLE_API_KEY
+# os.environ["GOOGLE_API_KEY"] = keys.GOOGLE_API_KEY
+google_configure(api_key=st.secrets.GOOGLE_API_KEY)
 
 VECTORSTORE_DIR = "vectorstores"
 
